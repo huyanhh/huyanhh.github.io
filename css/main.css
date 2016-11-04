@@ -1,0 +1,287 @@
+/* hidden for phones */
+@media (min-width: 400px) {
+    .nav-sidebar {
+        z-index: 0;
+    }
+
+    .nav-sidebar ul li {
+        display: block;
+        letter-spacing: 0.1rem;
+        border: none;
+        height: 20px;
+    }
+
+    #contact {
+        padding-top: 2em;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+
+    footer ul li {
+        padding: 0 0 0 0;
+        text-align: left;
+        display: inline;
+    }
+}
+
+/* not hidden for desktops */
+@media (min-width: 1200px) {
+    .nav-sidebar {
+        z-index: 11;
+    }
+
+    .nav-sidebar ul li {
+        display: block;
+        letter-spacing: 0.1rem;
+        border-top: 1px solid black;
+        height: 80px;
+    }
+
+    .content div {
+        padding-right: 280px;
+    }
+
+    #name span {
+        padding-right: 280px;
+    }
+
+    footer {
+        padding-right: 280px;
+    }
+
+    footer ul li {
+        padding: 0 0 0 0;
+        display: inline;
+    }
+}
+
+/*contact cuts off if small screen */
+@media (min-height: 500px) {
+    #contact {
+        padding-top: 4em;
+    }
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* module defaults */
+
+body {
+    margin: 0 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: #E3E7E3;*/
+    background-color: black;
+}
+
+#name span {
+    font-size: 15vmin;
+    color: white;
+    display: table;
+    margin: 0 auto;
+}
+
+header {
+    z-index: 10;
+    height: 25vh;
+    width: 100%;
+    background: #603520;
+    margin: 0 0 0 0;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+aside {
+    background-color: #B0B6B6;
+}
+
+/* main to slide */
+
+.main {
+    right: 0;
+    position: relative;
+}
+
+/*@content*/
+
+.content {
+    margin: 0 0 0 0;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    z-index: 2;
+    position: relative;
+    background: #E3E7E3;
+}
+
+.content p {
+    margin: 0;
+}
+
+b {
+    font-size: 10vmin;
+    color: #DF575D;
+}
+
+.one-liner h1 {
+    font-size: 5vmin;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2em;
+}
+
+/*fancy titles*/
+
+.about-row span {
+    display: table-cell;
+    width: 33vw;
+    font-size: 7vmin;
+}
+
+/*.filler-col {*/
+    /*background-color: #48494B;*/
+/*}*/
+
+#after-intro {
+    padding-top: 5em;
+}
+
+#after-intro h1 {
+    padding-bottom: 1em;
+}
+
+#after-intro a div {
+    text-align: center;
+    padding: 0;
+}
+
+#after-intro a div:link {
+    color: #21AFEA
+}
+
+footer {
+    background: #B0B6B6;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    height: 100%;
+}
+
+footer ul {
+    margin: auto;
+    padding: 0;
+}
+
+/*@nav-sidebar*/
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+.nav-sidebar {
+    background-color: #21AFEA;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100%;
+}
+
+.nav-sidebar ul {
+    padding: 0 0 0 0;
+}
+
+/*.nav-sidebar ul li {*/
+    /*display: block;*/
+    /*letter-spacing: 0.1rem;*/
+    /*border-top: 1px solid black;*/
+    /*height: 80px;*/
+/*}*/
+
+/* Make the links a block */
+
+.nav-sidebar ul li a {
+    height: 100%;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-sidebar ul li a:hover {
+    background-color: #E3E7E3;
+    opacity: 0.75;
+}
+
+
+/* vertical centered box, centers text in box */
+
+.vertical-cb {
+    padding-left: 40px;
+    line-height: 80px;
+    color: black;
+}
+
+/*@contact in navigation */
+
+#contact {
+    height: auto; /*override other elements*/
+}
+
+#contact p {
+    text-align: center;
+    font-size: .8em;
+}
+
+.mobile-menu {
+    margin-top: 8px;
+    margin-right: 8px;
+    padding: 10px 20px 10px 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+
+/* Colors */
+
+.granite-white {
+    color: #E3E7E3;
+}
+
+.granite-blue {
+    color: #21AFEA;
+}
+
+.granite-red {
+    color: #DF575D
+}
+
+.granite-grey {
+    color: #B0B6B6;
+}
+
+.granite-wood {
+    color: #F5B059;
+}
+
+.granite-standard {
+    color: white;
+}
