@@ -35,7 +35,6 @@
     .nav-sidebar ul li {
         display: block;
         letter-spacing: 0.1rem;
-        border-top: 1px solid black;
         height: 80px;
     }
 
@@ -82,7 +81,7 @@ body {
 }
 
 #name span {
-    font-size: 15vmin;
+    font-size: 10vmin;
     color: white;
     display: table;
     margin: 0 auto;
@@ -92,7 +91,7 @@ header {
     z-index: 10;
     height: 25vh;
     width: 100%;
-    background: #603520;
+    background: #282936;
     margin: 0 0 0 0;
     position: relative;
     padding-top: 1rem;
@@ -129,17 +128,22 @@ aside {
 
 b {
     font-size: 10vmin;
-    color: #DF575D;
+    color: #DF575D; /*21AFEA*/
 }
 
 .one-liner h1 {
     font-size: 5vmin;
+    font-weight: lighter;
     text-align: center;
     margin: 0;
     padding-bottom: 2em;
 }
 
 /*fancy titles*/
+
+.about-row span p {
+    font-weight: lighter;
+}
 
 .about-row span {
     display: table-cell;
@@ -183,21 +187,35 @@ footer ul {
 
 /*@nav-sidebar*/
 
+
 #logo {
     text-align: center;
     margin: 0;
+    font-weight: lighter;
 }
 
 .nav-sidebar {
-    background-color: #21AFEA;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    background-color: ghostwhite;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     position: fixed;
     display: block;
     top: 0;
     right: 0;
     width: 280px;
     height: 100%;
+}
+
+.nav-sidebar div img {
+    max-width: 150px; /* you can use % */
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+/*div containing image*/
+.nav-sidebar div {
+    height: 25vh;
 }
 
 .nav-sidebar ul {
@@ -214,6 +232,7 @@ footer ul {
 /* Make the links a block */
 
 .nav-sidebar ul li a {
+    padding-left: 2em;
     height: 100%;
     display: block;
     transition: all 0.3s ease 0s;
@@ -224,13 +243,11 @@ footer ul {
     opacity: 0.75;
 }
 
-
-/* vertical centered box, centers text in box */
+/* vertical centered box for links, centers text in box */
 
 .vertical-cb {
-    padding-left: 40px;
-    line-height: 80px;
     color: black;
+    height: 100%;
 }
 
 /*@contact in navigation */
@@ -243,11 +260,11 @@ footer ul {
     text-align: center;
     font-size: .8em;
 }
-
+/* hamburger menu */
 .mobile-menu {
     margin-top: 8px;
     margin-right: 8px;
-    padding: 10px 20px 10px 20px;
+    padding: .5em 1em .5em 1em;
     position: fixed;
     top: 0;
     right: 0;
