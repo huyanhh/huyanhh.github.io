@@ -1,5 +1,9 @@
 /* hidden for phones */
-@media (min-width: 400px) {
+@media (min-width: 300px) {
+    .mobile-menu {
+        font-size: 3em;
+    }
+
     .nav-sidebar {
         z-index: 0;
     }
@@ -28,6 +32,7 @@
 
 /* not hidden for desktops */
 @media (min-width: 1200px) {
+
     .nav-sidebar {
         z-index: 11;
     }
@@ -60,6 +65,12 @@
 @media (min-height: 500px) {
     #contact {
         padding-top: 4em;
+    }
+}
+
+@media (min-height: 700px) {
+    .mobile-menu {
+        font-size: 2em;
     }
 }
 
