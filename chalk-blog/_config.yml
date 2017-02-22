@@ -3,7 +3,7 @@
 name: Huyanh Hoang
 paginate: 25
 paginate_path: "/posts/page/:num/"
-url: https://huyanhhoang.co/blog
+url: https://huyanhhoang.co/chalk-blog
 blog_theme: light # Or use dark
 
 # Optional settings
