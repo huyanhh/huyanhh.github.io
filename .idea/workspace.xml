@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c5f0fb1-3832-4db2-8e25-4fcf42f03574" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_config.yml" afterPath="$PROJECT_DIR$/blog/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/about.html" afterPath="$PROJECT_DIR$/blog/_site/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/feed.xml" afterPath="$PROJECT_DIR$/blog/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/index.html" afterPath="$PROJECT_DIR$/blog/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/posts/day-1.html" afterPath="$PROJECT_DIR$/blog/_site/posts/day-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/sitemap.xml" afterPath="$PROJECT_DIR$/blog/_site/sitemap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/tag/design/index.html" afterPath="$PROJECT_DIR$/blog/_site/tag/design/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/tag/jekyll/index.html" afterPath="$PROJECT_DIR$/blog/_site/tag/jekyll/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/tag/web/index.html" afterPath="$PROJECT_DIR$/blog/_site/tag/web/index.html" />
     </list>
     <ignored path="huyanh-hoang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +41,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="512">
+              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -291,18 +282,18 @@
       <workItem from="1480449337979" duration="508000" />
       <workItem from="1480567847673" duration="13057000" />
       <workItem from="1481331124138" duration="28000" />
-      <workItem from="1487751511083" duration="8339000" />
+      <workItem from="1487751511083" duration="8506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68551000" />
+    <option name="totallyTimeSpent" value="68718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="495" y="99" width="1072" height="838" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899868" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -718,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="512">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding />
         </state>
       </provider>
