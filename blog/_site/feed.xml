@@ -3,23 +3,23 @@
   <channel>
     <title>Huyanh Hoang</title>
     <description></description>
-    <link>https://huyanhhoang.co/</link>
-    <atom:link href="https://huyanhhoang.co//blog/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://huyanhhoang.co</link>
+    <atom:link href="https://huyanhhoang.co/blog/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Introducing the Challenge</title>
         <description>Trying Jekyll, designing, and writing all on the same day</description>
         <pubDate>Tue, 21 Feb 2017 00:00:00 -0800</pubDate>
-        <link>https://huyanhhoang.co//blog/posts/day-1</link>
-        <guid isPermaLink="true">https://huyanhhoang.co//blog/posts/day-1</guid>
+        <link>https://huyanhhoang.co/blog/posts/day-1</link>
+        <guid isPermaLink="true">https://huyanhhoang.co/blog/posts/day-1</guid>
       </item>
     
       <item>
         <title>Chalk sample post with all elements</title>
         <description>Have a look at all the predesigned elements you can use in Chalk.</description>
         <pubDate>Sat, 15 Oct 2016 00:00:00 -0700</pubDate>
-        <link>https://huyanhhoang.co//blog/posts/chalk-sample-post-with-all-elements</link>
-        <guid isPermaLink="true">https://huyanhhoang.co//blog/posts/chalk-sample-post-with-all-elements</guid>
+        <link>https://huyanhhoang.co/blog/posts/chalk-sample-post-with-all-elements</link>
+        <guid isPermaLink="true">https://huyanhhoang.co/blog/posts/chalk-sample-post-with-all-elements</guid>
       </item>
     
   </channel>
