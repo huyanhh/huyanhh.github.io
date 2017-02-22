@@ -36,7 +36,7 @@ assets:
     - _assets/fonts
     - _assets/images
     - _assets/javascripts
-    - _assets/stylesheets
+    - blog/_assets/stylesheets
     - _vendor/
 collections:
   my_tags:
