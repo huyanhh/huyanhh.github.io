@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c5f0fb1-3832-4db2-8e25-4fcf42f03574" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/2016-10-15-chalk-sample-post-with-all-elements.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/_site/2016-10-15-chalk-sample-post-with-all-elements.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/_site/posts/configuring-chalk.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/_site/posts/introducing-chalk.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_config.yml" afterPath="$PROJECT_DIR$/blog/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/404.html" afterPath="$PROJECT_DIR$/blog/_site/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/about.html" afterPath="$PROJECT_DIR$/blog/_site/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/feed.xml" afterPath="$PROJECT_DIR$/blog/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/index.html" afterPath="$PROJECT_DIR$/blog/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/posts/day-1.html" afterPath="$PROJECT_DIR$/blog/_site/posts/day-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/sitemap.xml" afterPath="$PROJECT_DIR$/blog/_site/sitemap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/tag/design/index.html" afterPath="$PROJECT_DIR$/blog/_site/tag/design/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/tag/jekyll/index.html" afterPath="$PROJECT_DIR$/blog/_site/tag/jekyll/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_site/tag/web/index.html" afterPath="$PROJECT_DIR$/blog/_site/tag/web/index.html" />
     </list>
     <ignored path="huyanh-hoang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +68,28 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="80">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/_site/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="77" lean-forward="true" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -67,8 +98,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="192">
+              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -125,11 +156,11 @@
         <option value="$PROJECT_DIR$/chalk-blog/_posts/2016-10-17-introducing-chalk.md" />
         <option value="$PROJECT_DIR$/chalk-blog/_posts/2017-02-21-day-1.md" />
         <option value="$PROJECT_DIR$/chalk-blog/_config.yml" />
-        <option value="$PROJECT_DIR$/blog/_config.yml" />
         <option value="$PROJECT_DIR$/blog/_posts/2016-10-15-chalk-sample-post-with-all-elements.md" />
         <option value="$PROJECT_DIR$/blog/_posts/2016-10-17-introducing-chalk.md" />
         <option value="$PROJECT_DIR$/blog/.gitignore" />
         <option value="$PROJECT_DIR$/blog/2016-10-15-chalk-sample-post-with-all-elements.md" />
+        <option value="$PROJECT_DIR$/blog/_config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -184,24 +215,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huyanhh.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huyanhh.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,12 +329,12 @@
       <workItem from="1480449337979" duration="508000" />
       <workItem from="1480567847673" duration="13057000" />
       <workItem from="1481331124138" duration="28000" />
-      <workItem from="1487751511083" duration="5843000" />
+      <workItem from="1487751511083" duration="6512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66055000" />
+    <option name="totallyTimeSpent" value="66724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="694" y="138" width="1072" height="838" extended-state="0" />
@@ -364,26 +377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-          <folding>
-            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#code#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#code#1;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#code#2;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/detail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="848">
@@ -685,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/_posts/2016-10-17-introducing-chalk.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -745,10 +730,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/_site/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="77" lean-forward="true" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="80">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
