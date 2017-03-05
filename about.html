@@ -1,101 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Huyanh Hoang">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="stylesheet" href="css/detail.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Huyanh Hoang - Developer and Designer</title>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+	  <!-- Bootstrap core CSS -->
+	  <link href="./assets/css/bootstrap.css" rel="stylesheet">
 
-    <script src="https://use.fontawesome.com/a782888949.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/slide-out.js"></script>
-    <title>About Me</title>
-</head>
-<body>
-    <aside class="nav-sidebar">
-        <h1 id="logo">Huyanh</h1>
-        <ul>
-            <li><a href="index.html">
-                <div class="vertical-cb">HOME</div>
-            </a></li>
-            <li><a href="about.html">
-                <div class="vertical-cb">ABOUT</div>
-            </a></li>
-            <!--<li><a href="experience.html">-->
-                <!--<div class="vertical-cb">Experience</div>-->
-            <!--</a></li>-->
-            <li><a href="portfolio.html">
-                <div class="vertical-cb">PORTFOLIO</div>
-            </a></li>
-            <li><a href="HuyanhHoang-Resume(generalswe).pdf">
-                <div class="vertical-cb">RESUME</div>
-            </a></li>
-            <li id="contact">
-                <p>Contact</p>
-                <p>You can reach me at huyanhh at uci dot edu</p>
-            </li>
-        </ul>
-    </aside>
-    <header class="main">
-        <div class="mobile-menu">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </div>
-        <div class="code-block">
-            <code style="color:#F10021"><span>print</span>("Hello, Huyanh")</code>
-            <code style="color:#00BC57">/* About me page */</code>
-            <code style="color:#FFFFFF">learnMore()</code>
-        </div>
-    </header>
 
-    <section class="detail content main" id="portfolio">
-        <div>
-            <h1>About Me</h1>
-            <p>
-                I'm a student studying at the University of California, Irvine under the school of Informatics, with a
-                specialization in computer software development and user experience design. I have a passion for learning
-                and technology, and outside of school I am part of groups such as iOS OC meetup and User Experience
-                meetup, so you'll find me frequently going to such events.
-            </p>
+	  <!-- Custom styles for this template -->
+	  <link href="./assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">STANLEY</a>
         </div>
-        <div>
-            <h2>Here of some of the things I like:</h2>
-            <ul>
-                <li>building iOS apps</li>
-                <li>MOOCs</li>
-                <li>books</li>
-                <li>hackathons</li>
-                <li>weight lifting</li>
-                <li>tennis</li>
-                <li>mechanical keyboards</li>
-                <li>anime</li>
-            </ul>
-        </div>
-        <div>
-            <h2>Reading List</h2>
-            <p>I like to read a lot of things at one time.
-                <!--I haven’t actually finished any of them yet,-->
-                <!--because I’m one of these people.-->
-                My list is
-                always expanding and I’m open to read mainly
-                anything; currently I’m more focused on the
-                ones on the product side of things. Here's my
-                list of current reads:
-            </p>
-            <ul>
-                <li>Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days</li>
-                <li>Hooked: How to Build Habit-Forming Products</li>
-                <li>The Design of Everyday Things</li>
-                <li>Running Lean: Iterate from Plan A to a Plan That Works</li>
-            </ul>
-        </div>
-        <!--<div>-->
-            <!--<h2>perhaps i want more content</h2>-->
-            <!--<p>here is it</p>-->
-        <!--</div>-->
-    </section>
-</body>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<!-- +++++ Welcome Section +++++ -->
+	<div id="ww">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 centered">
+					<img src="../../../Downloads/stanley/theme/assets/img/user.png" alt="Stanley">
+					<h1>About Stanley!</h1>
+					<p>Hello everybody. I'm Stanley, a free handsome bootstrap theme coded by BlackTie.co. A really simple theme for those wanting to showcase their work with a cute & clean style.</p>
+					<p>Please, consider to register to <a href="http://eepurl.com/IcgkX">our newsletter</a> to be updated with our latest themes and freebies. Like always, you can use this theme in any project freely. Share it with your friends.</p>
+				
+				</div><!-- /col-lg-8 -->
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /ww -->
+	
+	
+	<!-- +++++ Information Section +++++ -->
+	
+	<div class="container pt">
+		<div class="row mt centered">	
+			<div class="col-lg-3">
+				<span class="glyphicon glyphicon-book"></span>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+			
+			<div class="col-lg-3">
+				<span class="glyphicon glyphicon-user"></span>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+
+			<div class="col-lg-3">
+				<span class="glyphicon glyphicon-fire"></span>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+
+			<div class="col-lg-3">
+				<span class="glyphicon glyphicon-globe"></span>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+		</div><!-- /row -->
+		
+		<div class="row mt">
+			<div class="col-lg-6">
+				<h4>THE THINKING</h4>
+				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+			</div><!-- /colg-lg-6 -->
+			
+			<div class="col-lg-6">
+				<h4>THE SKILLS</h4>
+				Wordpress
+				<div class="progress">
+					<div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">60% Complete</span>
+					</div>
+				</div>
+
+				Photoshop
+				<div class="progress">
+					<div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">80% Complete</span>
+					</div>
+				</div>
+				
+				HTML + CSS
+				<div class="progress">
+					<div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">95% Complete</span>
+					</div>
+				</div>
+
+			</div><!-- /col-lg-6 -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+
+	<!-- +++++ Footer Section +++++ -->
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4>Get in touch</h4>
+					<p>
+						huyanhh (at) uci (dot) edu
+					</p>
+				</div><!-- /col-lg-4 -->
+
+				<div class="col-lg-4">
+					<h4>My Links</h4>
+					<p>
+						<a href="https://github.com/huyanhh"><i class="fa fa-github"></i> Github</a>
+						<a href="https://linkedin.com/in/huyanhh"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+						<a href="https://www.youtube.com/channel/UCyJckH3x4ohf1iDHbMvx24w"><i class="fa fa-youtube-play"></i> Youtube</a>
+						<a href="https://twitter.com/whoyawn"><i class="fa fa-twitter-square"></i> Twitter</a>
+						<a href="https://medium.com/@whoyawn"><i class="fa fa-medium"></i> Medium</a>
+					</p>
+				</div><!-- /col-lg-4 -->
+
+				<div class="col-lg-4">
+					<h4>About Huyanh</h4>
+					<p>I code, design, and do various cool things.</p>
+				</div><!-- /col-lg-4 -->
+
+			</div>
+
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+  </body>
 </html>
