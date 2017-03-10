@@ -59,17 +59,16 @@
 <div class="container pt">
   <div class="row mt">
     <div class="col-lg-6 col-lg-offset-3 justify-left">
-      <h3>BEYONDTINNITUS</h3>
+      <h3>ROHM</h3>
       <hr>
-      <p>If you or anyone you know is struggling with Tinnitus, a medical condition associated
-        loud ringing in the ear, you understand that currently there is no cure, and doctors often say,
-        “There is nothing we can do about it, you just have to live with it.” With that, the UCI School of Medicine
-        came to ask me to build a mobile application that could potentially be a solution.
+      <p>“The concept for rohm, like many ideas, was birthed from necessity. Why was it such a pain to plan things? Why
+        is it so hard to notify everyone of changes to the plan? Why can’t we tap into events happening around us with
+        the touch of a button?”
       </p>
       <p>
-        <bt><strong>CLIENT</strong> <br>UCI School of Medicine<br></bt>
+        <bt><strong>ROLE</strong> <br>Cofounding team<br></bt>
         <bt><strong>TECHNOLOGIES</strong> <br>iOS, Swift, Firebase<br></bt>
-        <bt><strong>DATE</strong> <br>December 2016 - February 2017</bt>
+        <bt><strong>DATE</strong> <br>January 2016 - January 2017</bt>
       </p>
     </div>
   </div>
@@ -77,35 +76,54 @@
     <div class="col-lg-8 col-lg-offset-2">
       <h4>The Idea</h4>
       <p>
-        BeyondTinnitus works by taking user input to calibrate their frequency of the ringing sound in
-        their ear, and then with the formula is given by the doctor, we calculate what frequency is required
-        to offset the user's frequency in the ear. The app plays the matching frequency, and for users, hearing the
-        frequency masks the
-        ringing they currently hear in their ears, mitigating it to a soft and manageable white noise.
-        Users can then play music or watch videos on their application without having to worry about
-        any distractions from their condition.
-        <img class="img-responsive" src="./assets/img/portfolio/bt/1.png" alt=""></p>
+        Spelled ‘rohm,’ the application is a mobile platform for sharing, creating, and discovering local and casual
+        events near
+        you. In 2016, I was on the founding team as the one of the two mobile developers, building the front-end
+        of the application.
+        <img class="img-responsive" src="./assets/img/portfolio/rohm/1.png" alt=""></p>
+      <h4>The App</h4>
       <p>
-        We decided on iOS because that was an area in which I had a lot of experience. I also already knew of libraries
-        that were readily available to use, as an iOS developer. In the beginning, we tried to generate frequencies
-        using the iOS
-        built in framework, AVFoundation. There were APIs I could use to manually generate sound; all we needed was to
-        manipulate a range of pure frequencies. Unfortunately, we found that creating bands of frequencies took a lot of
-        memory,
-        and so the produced tone did not sound the way we wanted, as the playback contained lots of lag. We then tried
-        finding
-        other ways to produce a better sound and ended up discovering that MATLAB can create the sound files. Since
-        MATLAB
-        is built for computing in engineering and science, it had built in APIs for generating mixes of frequencies and
-        then
-        imported the files into the Xcode project itself.
-        <img class="img-responsive img-centered" src="./assets/img/portfolio/bt/2.png" alt="">
+        When you log in, you're directed to map of your area, in which you can tap on one of the event markers
+        created by other rohm users. A 12am taco run with your friends, a study session for your classmates for your
+        upcoming midterm, it's all made simple with the press of a button and our easy to use interface.
+        <img class="img-responsive img-centered" src="assets/img/portfolio/rohm/2.png" alt="">
+        <img class="img-responsive img-centered" src="assets/img/portfolio/rohm/3.png" alt="">
       </p>
-      <h4>Closing Thoughts</h4>
-      <p>The project and coding itself wasn't the challenging part, but rather finding an optimal way to generate
-        and play the sounds. In retrospect, this was a fun project where
-        I actually got to completely build and ship a product, but understanding the limitations of the high-level
-        iOS frameworks would have really been helpful.</p>
+      <h4>The Process</h4>
+      <p>
+        I worked on integrating the mockups, learning Swift along the way. I had to build many custom modules using
+        a combination of xibs and pure code. There was a lot of legacy code that I had to rewrite, as the developers
+        before wrote in a very Objective-C-like style even though the codebase was in Swift(they even put semicolons!).
+        By the time we implemented 70% of the screens, I had already rewritten about 100% of the app with more readable
+        and documented code.
+      </p>
+      <img class="img-responsive img-centered" src="assets/img/portfolio/rohm/3.5.png" alt="">
+      <h4>Design and Business</h4>
+      <p>
+        In our first iteration, we did not do any testing in the beginning, and by the time we tried our prototype on a
+        user, it was already too
+        late. Therefore, our following iterations tried following a more lean approach. I sought after potential users
+        at UCI based on students in clubs, our main audience. Following <em>Running Lean</em> by Ash Maurya,
+        I compiled a list of questions and assumptions I made about our users, and tried discovering their mental models
+        regarding events and what pain-points they had about existing solutions. We learned that the biggest problem
+        they
+        had was not the difficulty in planning the event, but rather the difficulty in getting people to commit to
+        coming.
+        Using that information, we were able to trim a lot of the fat in our current iteration, such as Checklists,
+        Profiles,
+        and Photos.
+      </p>
+      <img class="img-responsive img-centered" src="assets/img/portfolio/rohm/4.png" alt="">
+      <h4>Challenges and Lessons Learned</h4>
+      <p>
+        Getting up to speed with the current codebase is usually the most difficult part, especially when there is
+        little
+        to no documentation. In the beginning I tried to adapt my code to theirs, but it turns out that a rewrite was
+        a lot easier. We also had to cut down a lot of the features because of deadlines and complexity. Learning which
+        features and MVP building was a large part of the experience as well. In the end, we weren't able to launch
+        because
+        of internal issues, but I now have a good understanding of design, development, and business.
+      </p>
     </div>
   </div><!-- /row -->
 </div><!-- /container -->

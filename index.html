@@ -48,7 +48,7 @@
         <li><a href="about.html">About</a></li>
         <li><a href="blog">Blog</a></li>
         <li><a href="HuyanhHoang-Resume(generalswe).pdf">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="javascript:" onclick='scrollToBottom()'>Contact</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -58,13 +58,13 @@
 <div id="ww">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 centered">
-        <img src="./assets/img/Bitmap.png" alt="Stanley">
-        <h1>Hi, I'm Huyanh!</h1>
+      <div class="col-lg-8 col-lg-offset-2 justify-center">
+        <img src="./assets/img/Bitmap.png" height="200" width="200" alt="Stanley">
+        <h1 id="front">:~ huyanh$ hello start -a</h1>
         <p>Hello everybody. I'm Huyanh, a <s>free handsome bootstrap theme</s> designer and
           developer studying at the University of California, Irvine as an Informatics major.
           Currently I'm working on projects in React Native and iOS, both personal and
-          open-source. I also teach and <a href="https://medium.com/@whoyawn">blog</a></p>
+          open-source. I also teach and <a class="inline" href="https://medium.com/@whoyawn">blog</a>.</p>
         <p>Need some help, want to say hi, or think I'm so good you already want to hire
           me? Drop me a line at my email and other social links listed below :)</p>
       </div><!-- /col-lg-8 -->
@@ -76,19 +76,19 @@
 <!-- +++++ Projects Section +++++ -->
 
 <div class="container pt">
-  <div class="row mt centered">
+  <div class="row mt justify-left">
     <div class="col-lg-4">
       <a class="zoom green" href="work01.html"><img class="img-responsive"
                                                     src="./assets/img/portfolio/preview_bt.png" alt=""/></a>
       <p>BeyondTinnitus</p>
     </div>
     <div class="col-lg-4">
-      <a class="zoom green" href="work01.html"><img class="img-responsive"
+      <a class="zoom green" href="work02.html"><img class="img-responsive"
                                                     src="./assets/img/portfolio/preview_rohm.png" alt=""/></a>
       <p>Rohm</p>
     </div>
     <div class="col-lg-4">
-      <a class="zoom green" href="work01.html"><img class="img-responsive"
+      <a class="zoom green" href="work03.html"><img class="img-responsive"
                                                     src="./assets/img/portfolio/preview_ix.png" alt=""/></a>
       <p>iXercise</p>
     </div>
@@ -149,5 +149,6 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/utility.js"></script>
 </body>
 </html>

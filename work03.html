@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+  <title>Huyanh Hoang - Developer and Designer</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/css/bootstrap.css" rel="stylesheet">
+
+
+  <!-- Custom styles for this template -->
+  <link href="./assets/css/main.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="./assets/js/hover.zoom.js"></script>
+  <script src="./assets/js/hover.zoom.conf.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<!-- Static navbar -->
+<div class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Huyanh Hoang</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog">Blog</a></li>
+        <li><a href="HuyanhHoang-Resume(generalswe).pdf">Resume</a></li>
+        <li><a href="javascript:" onclick='scrollToBottom()'>Contact</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+
+<!-- +++++ Projects Section +++++ -->
+
+<div class="container pt">
+  <div class="row mt">
+    <div class="col-lg-6 col-lg-offset-3 justify-left">
+      <h3>iXercise</h3>
+      <hr>
+      <p>
+
+      </p>
+      <p>
+        <bt><strong>CLIENT</strong> <br>UCI<br></bt>
+        <bt><strong>TECHNOLOGIES</strong> <br>MongoDB, Node.js, D3, RabbitMQ<br></bt>
+        <bt><strong>DATE</strong> <br>March 2016 - June 2016</bt>
+      </p>
+    </div>
+  </div>
+  <div class="row mt justify-left">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h4>Overview</h4>
+      <p>
+        This was my project for my Project in Human Computer Interaction class at UC Irvine.
+        Working with the UCI Graduate Program in Network Systems, we were asked to build a user facing web application
+        that takes in data from exercise bike machines and displays it in a meaningful way to doctors and trainers who
+        are
+        treating patients recovering from leukemia.
+      </p>
+      <img class="img-responsive" src="./assets/img/portfolio/ix/1.png" alt="">
+      <h4>The Process</h4>
+      <p>
+        Based on the what the client wanted the web application to do, we created rough flow sketches of how the pages
+        would go from flow depending on which user has logged in to the application. The main functions that we focused
+        on were adding patients, removing patients, and viewing patient statistics in the system.
+      </p>
+      <img class="img-responsive img-centered" src="assets/img/portfolio/ix/2.png" alt="">
+      <p>
+        Along with my team, I conducted interviews and figured out what to build, then tested the wireframes with
+        the stakeholders. The sketches that we tested with the client were validated, so we turned that into an HTML
+        Bootstrap prototype.
+        <img class="img-responsive img-centered" src="assets/img/portfolio/ix/2.5.png" alt="">
+      </p>
+      <h4>UX Methods</h4>
+      <p>
+        The next step was testing it with the actual users. The client was only an intermediary, so we needed to go to
+        doctors and trainers
+        to see if the website was usable. A major hurdle, however, was the time constraints of the doctors and the scope
+        of the class.
+      </p>
+      <p>
+        For each type of user, we created a list of tasks to perform on the static website. We asked doctors
+        to add and remove a patient from the system, and asked trainers to view patient information. After the users
+        would finish each task assigned to them, they would answer a survey asking them how difficult it was to perform
+        each task.
+      </p>
+      <p>
+        We used Google forms to create the surveys and emailed the links to our user representative, who then emailed
+        the doctors and trainers all of the materials. The survey consisted of mainly closed questions but had
+        two open questions. Because we were not able to directly interview the customers, the closed ended questions
+        were better
+        to get responses and were able to be analyzed directly in Google forms.
+      </p>
+      <img class="img-responsive img-centered" src="assets/img/portfolio/ix/3.png" alt="">
+      <h4>Development</h4>
+      <img class="img-responsive img-centered" src="assets/img/portfolio/ix/4.png" alt="">
+      <p>
+        Once we learned the exact details of a successful product we built the application. The client wanted us to use
+        MongoDB for the database and Java for the backend, but we decided that Node.js would be a better fit because of
+        existing APIs. We created a server that would run the HTML pages and manage web socket messages to the web
+        client.
+        To connect with the exercise bikes, we used the RabbitMQ message broker to send statistics such as heart rate,
+        mileage, and calories burned to the MongoDB database.
+      </p>
+      <img class="img-responsive img-centered" src="assets/img/portfolio/ix/5.png" alt="">
+      <p>
+        I was in charge of writing to the database and making sure the data incoming from the server were integrity
+        checked in MongoDB using Mongoose. It is important that when a doctor or trainer enters data on the main
+        interface, badly formatted data will be rejected. We successfully finished the application within 5 weeks.
+      </p>
+      <h4>Challenges</h4>
+      <p>
+        Without direct contact with the users, it is difficult to do any sort of research that involves usability
+        testing.
+        Since the time frame was small for a class project, we had to make a lot of assumptions. Also, have an
+        intermediary
+        slows down the process by a lot because of the back and forth communication. In the end, however, we learned a
+        lot about how to conduct user research and about the pitfalls of certain methods.
+      </p>
+    </div>
+  </div><!-- /row -->
+</div><!-- /container -->
+
+
+<!-- +++++ Footer Section +++++ -->
+
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h4>Get in touch</h4>
+        <p>
+          huyanhh (at) uci (dot) edu
+        </p>
+      </div><!-- /col-lg-4 -->
+
+      <div class="col-lg-4">
+        <h4>My Links</h4>
+        <p>
+          <a href="https://github.com/huyanhh"><i class="fa fa-github"></i> Github</a>
+          <a href="https://linkedin.com/in/huyanhh"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+          <a href="https://www.youtube.com/channel/UCyJckH3x4ohf1iDHbMvx24w"><i class="fa fa-youtube-play"></i> Youtube</a>
+          <a href="https://twitter.com/whoyawn"><i class="fa fa-twitter-square"></i> Twitter</a>
+          <a href="https://medium.com/@whoyawn"><i class="fa fa-medium"></i> Medium</a>
+        </p>
+      </div><!-- /col-lg-4 -->
+
+      <div class="col-lg-4">
+        <h4>About Huyanh</h4>
+        <p>I code, design, and do various cool things.</p>
+      </div><!-- /col-lg-4 -->
+
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/utility.js"></script>
+</body>
+</html>
